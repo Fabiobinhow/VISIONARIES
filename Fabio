@@ -1,0 +1,42 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package methods;
+
+/**
+ *
+ * @author fabio
+ */
+
+public class Methods {
+    static void fabioMethod() {
+            /**
+             * author: john
+             */
+            System.out.println("This is fabio's code as an example");           
+    }
+    
+   
+    
+    static int addNumbers(int x, int y){
+        return x + y;
+    }
+    
+   
+    
+    
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+               
+        fabioMethod();
+       
+        int sum = addNumbers(11, 45);
+        System.out.println("Sum = " + sum);
+            
+    }
+    
+}
